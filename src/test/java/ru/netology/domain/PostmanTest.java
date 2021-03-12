@@ -18,6 +18,6 @@ class PostmanTest {
                 .post("/post")
                 .then()// Проверки
                 .statusCode(200)
-                .body("data", Matchers.equalTo("Данные"));
+                .body("data", Matchers.equalTo("gecnjnf"));
     }
 }
